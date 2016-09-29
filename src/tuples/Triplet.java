@@ -9,7 +9,9 @@ import java.util.Collection;
 import java.util.Iterator;
 
 /**
- * Created by sharukhhasan on 9/28/16.
+ * Created by Sharukh Hasan on 9/28/16.
+ *
+ *
  */
 public final class Triplet<A,B,C> extends Tuple implements Value0<A>, Value1<B>, Value2<C> {
     private static final long serialVersionUID = -1877265551599483740L;
@@ -171,19 +173,19 @@ public final class Triplet<A,B,C> extends Tuple implements Value0<A>, Value1<B>,
         return new Quartet<A,B,C,X0>(this.val0, this.val1, this.val2, value0);
     }
 
-    public <X0> Quartet<X0,A,B,C> addAt0(final Unit<X0> tuple) {
+    public <X0> Quartet<X0,A,B,C> addAt0(final Single<X0> tuple) {
         return addAt0(tuple.getValue0());
     }
 
-    public <X0> Quartet<A,X0,B,C> addAt1(final Unit<X0> tuple) {
+    public <X0> Quartet<A,X0,B,C> addAt1(final Single<X0> tuple) {
         return addAt1(tuple.getValue0());
     }
 
-    public <X0> Quartet<A,B,X0,C> addAt2(final Unit<X0> tuple) {
+    public <X0> Quartet<A,B,X0,C> addAt2(final Single<X0> tuple) {
         return addAt2(tuple.getValue0());
     }
 
-    public <X0> Quartet<A,B,C,X0> addAt3(final Unit<X0> tuple) {
+    public <X0> Quartet<A,B,C,X0> addAt3(final Single<X0> tuple) {
         return addAt3(tuple.getValue0());
     }
 
@@ -192,7 +194,7 @@ public final class Triplet<A,B,C> extends Tuple implements Value0<A>, Value1<B>,
     }
 
 
-    public <X0> Quartet<A,B,C,X0> add(final Unit<X0> tuple) {
+    public <X0> Quartet<A,B,C,X0> add(final Single<X0> tuple) {
         return addAt3(tuple);
     }
 
