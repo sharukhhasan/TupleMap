@@ -9,7 +9,7 @@ import values.Value0;
 /**
  * Created by Sharukh Hasan on 9/28/16
  *
- * One-element Tuple
+ * One-element tuple
  */
 public final class Single<A> extends Tuple implements Value0<A> {
     private static final long serialVersionUID = -9113114724069537096L;

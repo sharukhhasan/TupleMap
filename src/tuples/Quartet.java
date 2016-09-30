@@ -12,7 +12,7 @@ import values.Value3;
 /**
  * Created by Sharukh Hasan on 9/28/16
  *
- * Four-element Tuple
+ * Four-element tuple
  */
 public final class Quartet<A,B,C,D> extends Tuple implements Value0<A>, Value1<B>, Value2<C>, Value3<D> {
     private static final long serialVersionUID = 2445136048617019549L;

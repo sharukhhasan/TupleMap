@@ -8,7 +8,9 @@ import java.util.Collection;
 import java.util.Iterator;
 
 /**
- * Created by sharukhhasan on 9/28/16.
+ * Created by Sharukh Hasan on 9/28/16.
+ *
+ * Two-element tuple
  */
 public final class Pair<A,B> extends Tuple implements Value0<A>, Value1<B> {
     private static final long serialVersionUID = 2438099850625502138L;

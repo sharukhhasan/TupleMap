@@ -11,7 +11,7 @@ import java.util.Iterator;
 /**
  * Created by Sharukh Hasan on 9/28/16.
  *
- *
+ * Three-element tuple
  */
 public final class Triplet<A,B,C> extends Tuple implements Value0<A>, Value1<B>, Value2<C> {
     private static final long serialVersionUID = -1877265551599483740L;

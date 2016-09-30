@@ -13,7 +13,7 @@ import java.util.Iterator;
 /**
  * Created by Sharukh Hasan on 9/28/16
  *
- * Five-element Tuple
+ * Five-element tuple
  */
 public final class Quintet<A,B,C,D,E> extends Tuple implements Value0<A>, Value1<B>, Value2<C>, Value3<D>, Value4<E> {
     private static final long serialVersionUID = -1579008485383872628L;
