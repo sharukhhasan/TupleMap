@@ -1,4 +1,4 @@
-package base;
+package tuplemap.base;
 
 import java.io.Serializable;
 import java.util.ArrayList;

@@ -1,13 +1,13 @@
-package tuples;
+package tuplemap.tuples;
 
 import java.util.Collection;
 import java.util.Iterator;
 
-import base.Tuple;
-import values.Value0;
-import values.Value1;
-import values.Value2;
-import values.Value3;
+import tuplemap.base.Tuple;
+import tuplemap.values.Value0;
+import tuplemap.values.Value1;
+import tuplemap.values.Value2;
+import tuplemap.values.Value3;
 
 /**
  * Created by Sharukh Hasan on 9/28/16

@@ -1,9 +1,9 @@
-package tuples;
+package tuplemap.tuples;
 
-import base.Tuple;
-import values.Value0;
-import values.Value1;
-import values.Value2;
+import tuplemap.base.Tuple;
+import tuplemap.values.Value0;
+import tuplemap.values.Value1;
+import tuplemap.values.Value2;
 
 import java.util.Collection;
 import java.util.Iterator;
