@@ -1,4 +1,4 @@
-package gps.coordinate;
+package location.coordinate;
 
 import java.util.Iterator;
 

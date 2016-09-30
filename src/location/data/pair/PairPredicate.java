@@ -1,4 +1,4 @@
-package gps.data.pair;
+package location.data.pair;
 
 /**
  * Created by sharukhhasan on 9/30/16.

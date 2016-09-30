@@ -1,4 +1,4 @@
-package gps.data.predicate;
+package location.data.predicate;
 
 /**
  * Created by Sharukh Hasan on 9/30/16.

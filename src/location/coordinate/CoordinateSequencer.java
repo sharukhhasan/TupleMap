@@ -1,16 +1,16 @@
-package gps.coordinate;
+package location.coordinate;
 
-import gps.data.Consumer;
-import gps.data.ConsumerAndCounter;
-import gps.data.array.ArrayConsumer;
-import gps.data.array.ArrayConsumerAndCounter;
-import gps.data.array.ArrayPredicate;
-import gps.data.array.ArrayPredicateAndCounter;
-import gps.data.pair.PairConsumer;
-import gps.data.pair.PairConsumerAndCounter;
-import gps.data.pair.PairPredicate;
-import gps.data.pair.PairPredicateAndCounter;
-import gps.data.predicate.PredicateAndCounter;
+import location.data.Consumer;
+import location.data.ConsumerAndCounter;
+import location.data.array.ArrayConsumer;
+import location.data.array.ArrayConsumerAndCounter;
+import location.data.array.ArrayPredicate;
+import location.data.array.ArrayPredicateAndCounter;
+import location.data.pair.PairConsumer;
+import location.data.pair.PairConsumerAndCounter;
+import location.data.pair.PairPredicate;
+import location.data.pair.PairPredicateAndCounter;
+import location.data.predicate.PredicateAndCounter;
 
 import java.lang.reflect.Array;
 import java.util.ArrayList;
