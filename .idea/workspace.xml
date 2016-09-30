@@ -1,26 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4729c229-60b4-4bad-b7f8-5a490a9a6ec5" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/location/coordinate/Coordinate.java" afterPath="$PROJECT_DIR$/src/location/coordinate/Coordinate.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/location/coordinate/CoordinateFactory.java" afterPath="$PROJECT_DIR$/src/location/coordinate/CoordinateFactory.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/location/coordinate/CoordinateInterface.java" afterPath="$PROJECT_DIR$/src/location/coordinate/CoordinateInterface.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/location/coordinate/CoordinateSequence.java" afterPath="$PROJECT_DIR$/src/location/coordinate/CoordinateSequence.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/location/coordinate/CoordinateSequencer.java" afterPath="$PROJECT_DIR$/src/location/coordinate/CoordinateSequencer.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/location/data/Consumer.java" afterPath="$PROJECT_DIR$/src/location/data/Consumer.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/location/data/ConsumerAndCounter.java" afterPath="$PROJECT_DIR$/src/location/data/ConsumerAndCounter.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/location/data/array/ArrayConsumer.java" afterPath="$PROJECT_DIR$/src/location/data/array/ArrayConsumer.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/location/data/array/ArrayConsumerAndCounter.java" afterPath="$PROJECT_DIR$/src/location/data/array/ArrayConsumerAndCounter.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/location/data/array/ArrayPredicate.java" afterPath="$PROJECT_DIR$/src/location/data/array/ArrayPredicate.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/location/data/array/ArrayPredicateAndCounter.java" afterPath="$PROJECT_DIR$/src/location/data/array/ArrayPredicateAndCounter.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/location/data/pair/PairConsumer.java" afterPath="$PROJECT_DIR$/src/location/data/pair/PairConsumer.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/location/data/pair/PairConsumerAndCounter.java" afterPath="$PROJECT_DIR$/src/location/data/pair/PairConsumerAndCounter.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/location/data/pair/PairPredicate.java" afterPath="$PROJECT_DIR$/src/location/data/pair/PairPredicate.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/location/data/pair/PairPredicateAndCounter.java" afterPath="$PROJECT_DIR$/src/location/data/pair/PairPredicateAndCounter.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/location/data/predicate/Predicate.java" afterPath="$PROJECT_DIR$/src/location/data/predicate/Predicate.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/location/data/predicate/PredicateAndCounter.java" afterPath="$PROJECT_DIR$/src/location/data/predicate/PredicateAndCounter.java" />
-    </list>
+    <list default="true" id="4729c229-60b4-4bad-b7f8-5a490a9a6ec5" name="Default" comment="" />
     <ignored path="TupleMap.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/out/" />
@@ -748,12 +729,12 @@
       <workItem from="1475110621732" duration="3642000" />
       <workItem from="1475217796839" duration="1060000" />
       <workItem from="1475233236907" duration="2080000" />
-      <workItem from="1475250668974" duration="592000" />
+      <workItem from="1475250668974" duration="783000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7374000" />
+    <option name="totallyTimeSpent" value="7565000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
