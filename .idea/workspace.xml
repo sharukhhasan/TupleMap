@@ -2,7 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4729c229-60b4-4bad-b7f8-5a490a9a6ec5" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/gps/data/array/ArrayConsumer.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/gps/data/array/ArrayConsumerAndCounter.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/gps/data/array/ArrayPredicate.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/gps/data/array/ArrayPredicateAndCounter.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/gps/pair/PairConsumer.java" afterPath="$PROJECT_DIR$/src/gps/data/pair/PairConsumer.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/gps/pair/PairConsumerAndCounter.java" afterPath="$PROJECT_DIR$/src/gps/data/pair/PairConsumerAndCounter.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/gps/pair/PairPredicate.java" afterPath="$PROJECT_DIR$/src/gps/data/pair/PairPredicate.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/gps/pair/PairPredicateAndCounter.java" afterPath="$PROJECT_DIR$/src/gps/data/pair/PairPredicateAndCounter.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/gps/coordinate/CoordinateSequencer.java" afterPath="$PROJECT_DIR$/src/gps/coordinate/CoordinateSequencer.java" />
     </list>
     <ignored path="TupleMap.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -24,18 +33,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="PathCalculator.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/datastructures/binarytree/algorithms/PathCalculator.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="540">
-              <caret line="36" column="22" selection-start-line="36" selection-start-column="22" selection-end-line="36" selection-end-column="22" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="Coordinate.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/gps/coordinate/Coordinate.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -99,83 +96,24 @@
       <file leaf-file-name="CoordinateSequencer.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/gps/coordinate/CoordinateSequencer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="233">
-              <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+            <state relative-caret-position="341">
+              <caret line="393" column="8" selection-start-line="393" selection-start-column="8" selection-end-line="393" selection-end-column="8" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1413#1414#0" expanded="true" />
-                <element signature="e#1453#1454#0" expanded="true" />
-                <element signature="e#1921#1922#0" expanded="true" />
-                <element signature="e#1954#1955#0" expanded="true" />
-                <element signature="e#2005#2006#0" expanded="true" />
-                <element signature="e#2038#2039#0" expanded="true" />
-                <element signature="e#2093#2094#0" expanded="true" />
-                <element signature="e#2129#2130#0" expanded="true" />
-                <element signature="e#2192#2193#0" expanded="true" />
-                <element signature="e#2231#2232#0" expanded="true" />
-                <element signature="e#2281#2282#0" expanded="true" />
-                <element signature="e#2321#2322#0" expanded="true" />
-                <element signature="e#2370#2371#0" expanded="true" />
-                <element signature="e#2410#2411#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PairConsumer.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/gps/pair/PairConsumer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" column="27" selection-start-line="3" selection-start-column="27" selection-end-line="3" selection-end-column="27" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PairConsumerAndCounter.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/gps/pair/PairConsumerAndCounter.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" column="27" selection-start-line="3" selection-start-column="27" selection-end-line="3" selection-end-column="27" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PairPredicate.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/gps/pair/PairPredicate.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="35" selection-start-line="6" selection-start-column="35" selection-end-line="6" selection-end-column="35" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PairPredicateAndCounter.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/gps/pair/PairPredicateAndCounter.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="45" selection-start-line="6" selection-start-column="45" selection-end-line="6" selection-end-column="45" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CoordinateInterface.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/gps/coordinate/CoordinateInterface.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
-              <folding>
-                <element signature="e#368#369#0" expanded="true" />
-                <element signature="e#408#409#0" expanded="true" />
-                <element signature="e#460#461#0" expanded="true" />
-                <element signature="e#500#501#0" expanded="true" />
-                <element signature="e#562#563#0" expanded="true" />
-                <element signature="e#625#626#0" expanded="true" />
-                <element signature="e#1170#1171#0" expanded="true" />
-                <element signature="e#1219#1220#0" expanded="true" />
+                <element signature="e#1712#1713#0" expanded="true" />
+                <element signature="e#1752#1753#0" expanded="true" />
+                <element signature="e#2220#2221#0" expanded="true" />
+                <element signature="e#2253#2254#0" expanded="true" />
+                <element signature="e#2304#2305#0" expanded="true" />
+                <element signature="e#2337#2338#0" expanded="true" />
+                <element signature="e#2392#2393#0" expanded="true" />
+                <element signature="e#2428#2429#0" expanded="true" />
+                <element signature="e#2491#2492#0" expanded="true" />
+                <element signature="e#2530#2531#0" expanded="true" />
+                <element signature="e#2580#2581#0" expanded="true" />
+                <element signature="e#2620#2621#0" expanded="true" />
+                <element signature="e#2669#2670#0" expanded="true" />
+                <element signature="e#2709#2710#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -186,8 +124,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -235,6 +173,14 @@
         <option value="$PROJECT_DIR$/src/gps/pair/PairPredicate.java" />
         <option value="$PROJECT_DIR$/src/gps/pair/PairPredicateAndCounter.java" />
         <option value="$PROJECT_DIR$/src/gps/CoordinateSequencer.java" />
+        <option value="$PROJECT_DIR$/src/gps/array/ArrayConsumerAndCounter.java" />
+        <option value="$PROJECT_DIR$/src/gps/array/ArrayConsumer.java" />
+        <option value="$PROJECT_DIR$/src/gps/array/ArrayPredicateAndCounter.java" />
+        <option value="$PROJECT_DIR$/src/gps/array/ArrayPredicate.java" />
+        <option value="$PROJECT_DIR$/src/gps/data/predicate/Predicate.java" />
+        <option value="$PROJECT_DIR$/src/gps/data/predicate/PredicateAndCounter.java" />
+        <option value="$PROJECT_DIR$/src/gps/data/ConsumerAndCounter.java" />
+        <option value="$PROJECT_DIR$/src/gps/data/Consumer.java" />
         <option value="$PROJECT_DIR$/src/gps/coordinate/CoordinateSequencer.java" />
       </list>
     </option>
@@ -779,12 +725,12 @@
       <updated>1475110617099</updated>
       <workItem from="1475110621732" duration="3642000" />
       <workItem from="1475217796839" duration="1060000" />
-      <workItem from="1475233236907" duration="994000" />
+      <workItem from="1475233236907" duration="1955000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5696000" />
+    <option name="totallyTimeSpent" value="6657000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
@@ -803,6 +749,7 @@
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32934928" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -813,7 +760,6 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -889,24 +835,24 @@
         <state relative-caret-position="75">
           <caret line="5" column="29" selection-start-line="5" selection-start-column="29" selection-end-line="5" selection-end-column="29" />
           <folding>
-            <element signature="e#268#269#0" expanded="true" />
-            <element signature="e#300#301#0" expanded="true" />
-            <element signature="e#326#327#0" expanded="true" />
-            <element signature="e#353#354#0" expanded="true" />
-            <element signature="e#391#392#0" expanded="true" />
-            <element signature="e#418#419#0" expanded="true" />
-            <element signature="e#465#466#0" expanded="true" />
-            <element signature="e#497#498#0" expanded="true" />
-            <element signature="e#536#537#0" expanded="true" />
-            <element signature="e#564#565#0" expanded="true" />
-            <element signature="e#613#614#0" expanded="true" />
-            <element signature="e#647#648#0" expanded="true" />
-            <element signature="e#679#680#0" expanded="true" />
-            <element signature="e#714#715#0" expanded="true" />
-            <element signature="e#747#748#0" expanded="true" />
-            <element signature="e#783#784#0" expanded="true" />
-            <element signature="e#1639#1640#0" expanded="true" />
-            <element signature="e#1698#1699#0" expanded="true" />
+            <element signature="e#268#269#0" expanded="false" />
+            <element signature="e#300#301#0" expanded="false" />
+            <element signature="e#326#327#0" expanded="false" />
+            <element signature="e#353#354#0" expanded="false" />
+            <element signature="e#391#392#0" expanded="false" />
+            <element signature="e#418#419#0" expanded="false" />
+            <element signature="e#465#466#0" expanded="false" />
+            <element signature="e#497#498#0" expanded="false" />
+            <element signature="e#536#537#0" expanded="false" />
+            <element signature="e#564#565#0" expanded="false" />
+            <element signature="e#613#614#0" expanded="false" />
+            <element signature="e#647#648#0" expanded="false" />
+            <element signature="e#679#680#0" expanded="false" />
+            <element signature="e#714#715#0" expanded="false" />
+            <element signature="e#747#748#0" expanded="false" />
+            <element signature="e#783#784#0" expanded="false" />
+            <element signature="e#1639#1640#0" expanded="false" />
+            <element signature="e#1698#1699#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -916,20 +862,20 @@
         <state relative-caret-position="30">
           <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="6" selection-end-column="3" />
           <folding>
-            <element signature="e#223#224#0" expanded="true" />
-            <element signature="e#255#256#0" expanded="true" />
-            <element signature="e#281#282#0" expanded="true" />
-            <element signature="e#308#309#0" expanded="true" />
-            <element signature="e#343#344#0" expanded="true" />
-            <element signature="e#375#376#0" expanded="true" />
-            <element signature="e#411#412#0" expanded="true" />
-            <element signature="e#438#439#0" expanded="true" />
-            <element signature="e#483#484#0" expanded="true" />
-            <element signature="e#515#516#0" expanded="true" />
-            <element signature="e#895#896#0" expanded="true" />
-            <element signature="e#933#934#0" expanded="true" />
-            <element signature="e#979#980#0" expanded="true" />
-            <element signature="e#1055#1056#0" expanded="true" />
+            <element signature="e#223#224#0" expanded="false" />
+            <element signature="e#255#256#0" expanded="false" />
+            <element signature="e#281#282#0" expanded="false" />
+            <element signature="e#308#309#0" expanded="false" />
+            <element signature="e#343#344#0" expanded="false" />
+            <element signature="e#375#376#0" expanded="false" />
+            <element signature="e#411#412#0" expanded="false" />
+            <element signature="e#438#439#0" expanded="false" />
+            <element signature="e#483#484#0" expanded="false" />
+            <element signature="e#515#516#0" expanded="false" />
+            <element signature="e#895#896#0" expanded="false" />
+            <element signature="e#933#934#0" expanded="false" />
+            <element signature="e#979#980#0" expanded="false" />
+            <element signature="e#1055#1056#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -990,6 +936,18 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
           <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1112#1113#0" expanded="true" />
+            <element signature="e#1160#1161#0" expanded="true" />
+            <element signature="e#1213#1214#0" expanded="true" />
+            <element signature="e#1261#1262#0" expanded="true" />
+            <element signature="e#3112#3113#0" expanded="true" />
+            <element signature="e#3202#3203#0" expanded="true" />
+            <element signature="e#3241#3242#0" expanded="true" />
+            <element signature="e#3287#3288#0" expanded="true" />
+            <element signature="e#3907#3953#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1107,24 +1065,24 @@
         <state relative-caret-position="75">
           <caret line="5" column="29" selection-start-line="5" selection-start-column="29" selection-end-line="5" selection-end-column="29" />
           <folding>
-            <element signature="e#268#269#0" expanded="true" />
-            <element signature="e#300#301#0" expanded="true" />
-            <element signature="e#326#327#0" expanded="true" />
-            <element signature="e#353#354#0" expanded="true" />
-            <element signature="e#391#392#0" expanded="true" />
-            <element signature="e#418#419#0" expanded="true" />
-            <element signature="e#465#466#0" expanded="true" />
-            <element signature="e#497#498#0" expanded="true" />
-            <element signature="e#536#537#0" expanded="true" />
-            <element signature="e#564#565#0" expanded="true" />
-            <element signature="e#613#614#0" expanded="true" />
-            <element signature="e#647#648#0" expanded="true" />
-            <element signature="e#679#680#0" expanded="true" />
-            <element signature="e#714#715#0" expanded="true" />
-            <element signature="e#747#748#0" expanded="true" />
-            <element signature="e#783#784#0" expanded="true" />
-            <element signature="e#1639#1640#0" expanded="true" />
-            <element signature="e#1698#1699#0" expanded="true" />
+            <element signature="e#268#269#0" expanded="false" />
+            <element signature="e#300#301#0" expanded="false" />
+            <element signature="e#326#327#0" expanded="false" />
+            <element signature="e#353#354#0" expanded="false" />
+            <element signature="e#391#392#0" expanded="false" />
+            <element signature="e#418#419#0" expanded="false" />
+            <element signature="e#465#466#0" expanded="false" />
+            <element signature="e#497#498#0" expanded="false" />
+            <element signature="e#536#537#0" expanded="false" />
+            <element signature="e#564#565#0" expanded="false" />
+            <element signature="e#613#614#0" expanded="false" />
+            <element signature="e#647#648#0" expanded="false" />
+            <element signature="e#679#680#0" expanded="false" />
+            <element signature="e#714#715#0" expanded="false" />
+            <element signature="e#747#748#0" expanded="false" />
+            <element signature="e#783#784#0" expanded="false" />
+            <element signature="e#1639#1640#0" expanded="false" />
+            <element signature="e#1698#1699#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1134,20 +1092,20 @@
         <state relative-caret-position="30">
           <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="6" selection-end-column="3" />
           <folding>
-            <element signature="e#223#224#0" expanded="true" />
-            <element signature="e#255#256#0" expanded="true" />
-            <element signature="e#281#282#0" expanded="true" />
-            <element signature="e#308#309#0" expanded="true" />
-            <element signature="e#343#344#0" expanded="true" />
-            <element signature="e#375#376#0" expanded="true" />
-            <element signature="e#411#412#0" expanded="true" />
-            <element signature="e#438#439#0" expanded="true" />
-            <element signature="e#483#484#0" expanded="true" />
-            <element signature="e#515#516#0" expanded="true" />
-            <element signature="e#895#896#0" expanded="true" />
-            <element signature="e#933#934#0" expanded="true" />
-            <element signature="e#979#980#0" expanded="true" />
-            <element signature="e#1055#1056#0" expanded="true" />
+            <element signature="e#223#224#0" expanded="false" />
+            <element signature="e#255#256#0" expanded="false" />
+            <element signature="e#281#282#0" expanded="false" />
+            <element signature="e#308#309#0" expanded="false" />
+            <element signature="e#343#344#0" expanded="false" />
+            <element signature="e#375#376#0" expanded="false" />
+            <element signature="e#411#412#0" expanded="false" />
+            <element signature="e#438#439#0" expanded="false" />
+            <element signature="e#483#484#0" expanded="false" />
+            <element signature="e#515#516#0" expanded="false" />
+            <element signature="e#895#896#0" expanded="false" />
+            <element signature="e#933#934#0" expanded="false" />
+            <element signature="e#979#980#0" expanded="false" />
+            <element signature="e#1055#1056#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1157,12 +1115,12 @@
         <state relative-caret-position="540">
           <caret line="36" column="22" selection-start-line="36" selection-start-column="22" selection-end-line="36" selection-end-column="22" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/gps/pair/PairConsumer.java">
+    <entry file="file://$PROJECT_DIR$/src/gps/data/pair/PairConsumer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
           <caret line="3" column="27" selection-start-line="3" selection-start-column="27" selection-end-line="3" selection-end-column="27" />
@@ -1170,7 +1128,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/gps/pair/PairConsumerAndCounter.java">
+    <entry file="file://$PROJECT_DIR$/src/gps/data/pair/PairConsumerAndCounter.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
           <caret line="3" column="27" selection-start-line="3" selection-start-column="27" selection-end-line="3" selection-end-column="27" />
@@ -1178,18 +1136,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/gps/pair/PairPredicate.java">
+    <entry file="file://$PROJECT_DIR$/src/gps/data/pair/PairPredicate.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="6" column="35" selection-start-line="6" selection-start-column="35" selection-end-line="6" selection-end-column="35" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/gps/pair/PairPredicateAndCounter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="45" selection-start-line="6" selection-start-column="45" selection-end-line="6" selection-end-column="45" />
           <folding />
         </state>
       </provider>
@@ -1235,6 +1185,59 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/gps/coordinate/CoordinateSequence.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+          <folding>
+            <element signature="e#975#976#0" expanded="true" />
+            <element signature="e#1022#1023#0" expanded="true" />
+            <element signature="e#1172#1173#0" expanded="true" />
+            <element signature="e#1237#1238#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/gps/data/array/ArrayConsumer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="35" selection-start-line="6" selection-start-column="35" selection-end-line="6" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/gps/data/array/ArrayConsumerAndCounter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="45" selection-start-line="6" selection-start-column="45" selection-end-line="6" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/gps/data/array/ArrayPredicateAndCounter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="1" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/gps/data/pair/PairPredicateAndCounter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="45" selection-start-line="6" selection-start-column="45" selection-end-line="6" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/gps/data/array/ArrayPredicate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="29" selection-start-line="7" selection-start-column="29" selection-end-line="7" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/gps/coordinate/CoordinateInterface.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
@@ -1252,39 +1255,58 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/gps/coordinate/CoordinateSequence.java">
+    <entry file="file://$PROJECT_DIR$/src/gps/data/predicate/Predicate.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-          <folding>
-            <element signature="e#975#976#0" expanded="true" />
-            <element signature="e#1022#1023#0" expanded="true" />
-            <element signature="e#1172#1173#0" expanded="true" />
-            <element signature="e#1237#1238#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="90">
+          <caret line="6" column="31" selection-start-line="6" selection-start-column="31" selection-end-line="6" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/gps/data/predicate/PredicateAndCounter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="41" selection-start-line="6" selection-start-column="41" selection-end-line="6" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/gps/data/Consumer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="30" selection-start-line="6" selection-start-column="30" selection-end-line="6" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/gps/data/ConsumerAndCounter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="40" selection-start-line="6" selection-start-column="40" selection-end-line="6" selection-end-column="40" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/gps/coordinate/CoordinateSequencer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="233">
-          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+        <state relative-caret-position="341">
+          <caret line="393" column="8" selection-start-line="393" selection-start-column="8" selection-end-line="393" selection-end-column="8" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1413#1414#0" expanded="true" />
-            <element signature="e#1453#1454#0" expanded="true" />
-            <element signature="e#1921#1922#0" expanded="true" />
-            <element signature="e#1954#1955#0" expanded="true" />
-            <element signature="e#2005#2006#0" expanded="true" />
-            <element signature="e#2038#2039#0" expanded="true" />
-            <element signature="e#2093#2094#0" expanded="true" />
-            <element signature="e#2129#2130#0" expanded="true" />
-            <element signature="e#2192#2193#0" expanded="true" />
-            <element signature="e#2231#2232#0" expanded="true" />
-            <element signature="e#2281#2282#0" expanded="true" />
-            <element signature="e#2321#2322#0" expanded="true" />
-            <element signature="e#2370#2371#0" expanded="true" />
-            <element signature="e#2410#2411#0" expanded="true" />
+            <element signature="e#1712#1713#0" expanded="true" />
+            <element signature="e#1752#1753#0" expanded="true" />
+            <element signature="e#2220#2221#0" expanded="true" />
+            <element signature="e#2253#2254#0" expanded="true" />
+            <element signature="e#2304#2305#0" expanded="true" />
+            <element signature="e#2337#2338#0" expanded="true" />
+            <element signature="e#2392#2393#0" expanded="true" />
+            <element signature="e#2428#2429#0" expanded="true" />
+            <element signature="e#2491#2492#0" expanded="true" />
+            <element signature="e#2530#2531#0" expanded="true" />
+            <element signature="e#2580#2581#0" expanded="true" />
+            <element signature="e#2620#2621#0" expanded="true" />
+            <element signature="e#2669#2670#0" expanded="true" />
+            <element signature="e#2709#2710#0" expanded="true" />
           </folding>
         </state>
       </provider>

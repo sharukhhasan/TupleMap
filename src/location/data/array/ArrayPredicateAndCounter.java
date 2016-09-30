@@ -1,4 +1,4 @@
-package gps.array;
+package gps.data.array;
 
 /**
  * Created by Sharukh Hasan on 9/30/16.
